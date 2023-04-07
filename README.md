@@ -1,6 +1,6 @@
 # Emotion and gender identification 
 ## Dataset
-In this code I used a dataset which was collected from ordinary people. In collection process, subjects were asked to say 10 different sentences in persian language with 4 different emotions(Sad,Happy,Angry, and dispassionate), and then their voices were recorded.This dataset was collected in spring 2022 with the help of ECE students of university of Tehran.
+In this code I used a dataset which was collected from ordinary people. In collection process, subjects were asked to say 10 different sentences in persian language with 4 different emotions(Sad,Happy,Angry, and Dispassionate), and then their voices were recorded.This dataset was collected in spring 2022 with the help of ECE students of university of Tehran.
 
 ## Dataset Cleaning and Feature Extraction
 Due to large number of data collector, the original dataset was not so clean.There were some faults in csv file(which is related to information of subjects and their voices). For example,There are some duplicated rows in csv file. After cleaning dataset, I extracted various kinds of features(Time and frequency domain features) from these audios using librosa library. I used *feat_extraction.ipynb* code for this part.
